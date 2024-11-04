@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Táblázatok</title>
+</head>
+<body>
+    <h1>Táblázatok bemutatása</h1>
+<p>Ez egy három soros, négy oszlopos táblázat.</p>
+<table border=""1">
+    <tr>
+        <th>ELADÁS</th>
+        <th>alma</th>
+        <th>körte</th>
+        <th>banán</th>
+    </tr>
+    <tr>
+        <th>kg</th>
+        <td>200</td>
+        <td>150</td>
+        <td>300</td>
+    </tr>
+    <tr>
+        <th>Ft</th>
+        <td>60000</td>
+        <td>45000</td>
+        <td>85000</td>
+    </tr>
+</table>
+
+<p>Cellák összevonása egy sorban.</p>
+<table border="1">
+    <tr>
+        <td>valami</td>
+        <td>valami</td>
+        <td>valami</td>
+    </tr>
+    <tr>
+        <td>valami</td>
+        <td colspan="2">valami</td>
+        <!--összevonás-->
+    </tr>
+    <tr>
+        <td>valami</td>
+        <td>valami</td>
+        <td>valami</td>
+    </tr>
+</table>
+
+<p>Cellák összevonása egy oszlopban.</p>
+<table border="1">
+    <tr>
+        <td>valami</td>
+        <td>valami</td>
+        <td>valami</td>
+    </tr>
+    <tr>
+        <td>valami</td>
+        <td rowspan="2">valami</td>
+        <td>valami</td>
+    </tr>
+    <tr>
+        <td>valami</td>
+        <!--összevonás-->
+        <td>valami</td>
+    </tr>
+</table>
+
+<p>Gyakorló feladat</p>
+<table border="1">
+    <tr>
+        <td colspan="5">IDEIGLENES ÓRAREND</td>
+        <!--összevonás-->
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <!--összevonás-->
+        <td>HÉTFŐ</td>
+        <td>KEDD</td>
+        <td>SZERDA</td> 
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>07<sup>40</sup>-08<sup>25</sup></td>
+        <td>matek</td>
+        <td>tesi</td>
+        <td>fizika</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>08<sup>30</sup>-09<sup>15</sup></td>
+        <td>töri</td>
+        <td rowspan="2">infó</td>
+        <td>matek</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>09<sup>25</sup>-10<sup>10</sup></td>
+        <!--összevonás-->
+        <td rowspan="2">magyar</td>
+        <td>angol</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>10<sup>20</sup>-11<sup>05</sup></td>
+        <!--összevonás-->
+        <td>töri</td>
+        <td>magyar</td>    
+    </tr>
+</table>
+<p>Saját órarend</p>
+<table border="1">
+    <tr>
+        <td colspan="2"></td>
+        <!--összevonás-->
+        <td>Hétfő</td>
+        <td>Kedd</td>
+        <td>Szerda</td>
+        <td>Csütörtök</td>
+        <td>Péntek</td>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>07<sup>40</sup>-08<sup>25</sup></td>
+        <td rowspan="2">IKT</td>
+        <td>Tesi</td>
+        <td></td>
+        <td>Tesi</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>08<sup>30</sup>-09<sup>15</sup></td>
+        <td>Ofő</td>
+        <td>Tesi</td>
+        <td rowspan="2">Német</td>
+        <td>Irodalom</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>09<sup>25</sup>-10<sup>10</sup></td>
+        <td rowspan="3">Inf. táv. gyak.</td>
+        <td>Honv.</td>
+        <td rowspan="2">Matematika</td>
+        <!--összevonás-->
+        <!--összevonás-->
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>10<sup>20</sup>-11<sup>05</sup></td>
+        <td>Komplex</td>
+        <!--összevonás-->
+        <td>Komplex</td>
+        <td>Töri</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>11<sup>15</sup>-12<sup>00</sup></td>
+        <td>Matematika</td>
+        <td>Komplex</td>
+        <td>Magyar</td>
+        <td>Komplex</td>
+    </tr>
+    <tr>
+        <td>6.</td>
+        <td>12<sup>20</sup>-13<sup>05</sup></td>
+        <td rowspan="2">Prog. a. gy.</td>
+        <td>Töri</td>
+        <td>Töri</td>
+        <td>Matematika</td>
+        <td>Tesi</td>
+    </tr>
+    <tr>
+        <td>7.</td>
+        <td>13<sup>10</sup>-13<sup>55</sup></td>
+        <td>Magyar</td>
+        <td>Német</td>
+        <td>Dk</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8.</td>
+        <td>14<sup>00</sup>-14<sup>45</sup></td>
+        <td>---</td>
+        <td>---</td>
+        <td></td>
+        <td></td>
+        <td>---</td>
+    </tr>
+</table>
+</body>
+</html>
